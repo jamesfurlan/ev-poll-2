@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pollBox {
+    text-align: center;
+    overflow-y: scroll;
+    height: 79vh;
+    max-height: 800px;
+}
+
+.pollQuestion {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background-clip: content-box;
+    background-color: #eeeeee;
+    border-radius: 25px;
+}
+
+.MuiTextField-root {
+    width: 90%;
+}
+
+.message {
+    display: inline-block;
+    word-break: break-all;
+    text-align: left;
+    width:62%;
+    padding: 5px;
+}
+
+.messagebuttons {
+    display: inline-block;
+    text-align: right;
+    width:38%;
+    white-space: nowrap;
+}
+
+.logo {
+    height: 50px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.separator {
+    height: 10px;
+}
+
+#editButton {
+    background-color: #fcba03;
+    color: white;
+}
+
+.buttonLine {
+    display: inline-block;
+}
+
+.editbox {
+    width: 500px;
+}
+
+.resolved {
+    background-color: #04a104b0
+}
+
+#resolveButton {
+    background-color: #04a104;
+    color: white;
+}
+
+.clearButton {
+    float: right;
+}
